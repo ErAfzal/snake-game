@@ -1,0 +1,59 @@
+functional requirement-
+there would be a board where game woulb be played
+
+
+Non Functional requirement-
+
+Baord{
+int width;
+int length;
+int score;
+
+nextMove();
+updateScore();
+}
+
+
+ICollision{
+    collision();
+}
+BorderCollison{
+    collision();
+}
+SnakeCollision(){
+    collision();
+}
+
+
+Food{
+
+    Location location;
+    nextRandomLocation();
+}
+
+Snake{
+    ArrayList<Integer> body;
+
+    eat();
+
+}
+
+
+
+Direction{
+    up,down,left,right;
+}
+
+Game{
+
+    Board
+    Food
+    Score;
+
+    startGame();
+
+    checkBoundaryCollision();
+    checkSnakeCollision();
+
+}
+
